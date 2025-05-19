@@ -7,6 +7,8 @@ The Sharpness Reclassification Dataset contains two data folders:
 "Defocus & Expo":
 - Tools: Contains 50 images, with 10 defocused steps using a constant defocus step. For each step, 5 exposures have been recorded.
 
-These images are used to demonstrate the effectiveness of a new sharpness evaluation tool within the logarithmic image processing framework (LIP). This tool enables the reclassification of images based on sharpness and paves the way for new autofocus tools.
+These images are used to demonstrate the effectiveness of a new sharpness evaluation tool within the logarithmic image processing framework (LIP).
+
+For each image folder, there is an associated mlac folder. This folder contains the Maximal Logarithmic Additive Contrast (MLAC) map corresponding to each image. The mean value of this map serves as a reliable evaluation of the image's sharpness. This tool enables the reclassification of images based on sharpness and paves the way for new autofocus tools.
 
 Stay tuned for upcoming publications that cite this dataset.
